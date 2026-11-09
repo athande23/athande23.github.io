@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14241e">
+    <meta name="description" content="Selected app-development projects from A&D Development: Haps, MealSort, CareerGrid, Folio, InfoDash, and GroLocal.">
+    <title>A&D Development - Selected app work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      THESIS: A&D Development's first screen is an app case study, not a generic agency hero; visitors meet real project purpose and credits before any service claims.
+      OWN-WORLD: Studio Pin-up Wall: deep forest, vivid lime, coral, and lavender sheets, crisp printed annotations, and one strict grid; evidence leads, never scrapbook decoration.
+      STORY: Explore six projects, understand each app's purpose and credited makers, then find the consultation contact point. Contact details remain an explicit placeholder until supplied.
+      FIRST VIEWPORT: A compact studio masthead sits above Haps at full width: oversized title and summary left, labeled illustrative event-app study right, project credits and a persistent six-project navigator.
+      FORM: Studio Pin-up Wall, candidate 6 of 7, seed caf1ecac. Signature interaction: the project navigator moves between full-width studies and updates its active stop.
+      FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+    -->
+    <a class="skip-link" href="#main">Skip to selected work</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#main" aria-label="A&D Development, back to the beginning">
+        <span class="wordmark__symbol" aria-hidden="true">A<span>&amp;</span>D</span>
+        <span class="wordmark__name">Development</span>
+      </a>
+      <p class="header-note">An app development portfolio</p>
+      <a class="header-link" href="#contact">
+        Start a conversation
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5"/></svg>
+      </a>
+    </header>
+
+    <main id="main">
+      <nav class="project-nav" aria-label="Selected projects">
+        <span class="project-nav__label">Selected work</span>
+        <div class="project-nav__links">
+          <a href="#haps" aria-current="location">Haps</a>
+          <a href="#mealsort">MealSort</a>
+          <a href="#careergrid">CareerGrid</a>
+          <a href="#folio">Folio</a>
+          <a href="#infodash">InfoDash</a>
+          <a href="#grolocal">GroLocal</a>
+        </div>
+        <span class="project-nav__count" aria-live="polite"><span id="current-project">01</span> / 06</span>
+      </nav>
+
+      <div class="project-stack" id="work">
+        <section class="project project--haps" id="haps" aria-labelledby="haps-title" data-project="haps">
+          <div class="project__inner">
+            <div class="project__copy">
+              <h1 id="haps-title">Haps<span class="title-mark">.</span></h1>
+              <p class="project__category">Social planning app</p>
+              <p class="project__summary">Good plans start with finding your people.</p>
+              <p class="project__description">An events-planning app connecting people across Sydney to find events and plans to do together.</p>
+              <p class="project__credit"><span>Made by</span> Aaditya <i aria-hidden="true"></i> Divy</p>
+              <a class="text-link" href="#mealsort">Explore the next project <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m-5-5 5 5 5-5"/></svg></a>
+            </div>
+            <div class="project__visual">
+              <div class="study-label"><span></span> Illustrative interface study</div>
+              <div class="app-window app-window--haps" role="img" aria-label="Illustrative Haps event discovery interface">
+                <div class="app-window__top">
+                  <span class="app-wordmark">haps</span>
+                  <span class="avatar-stack" aria-hidden="true"><i></i><i></i><i></i></span>
+                </div>
+                <div class="haps-intro">
+                  <p>Your city, together</p>
+                  <h2>Make a day<br>of it.</h2>
+                </div>
+                <div class="haps-filters"><span>All plans</span><span>Outdoors</span><span>Food</span></div>
+                <div class="event-row">
+                  <div class="event-art event-art--market"><span>WEEKEND<br>MARKET</span></div>
+                  <div><small>THIS SATURDAY</small><strong>Find something local</strong><span>Bring a friend along</span></div>
+                  <b aria-hidden="true">+</b>
+                </div>
+                <div class="event-row">
+                  <div class="event-art event-art--walk"><span>GO<br>OUTSIDE</span></div>
+                  <div><small>YOUR NEXT PLAN</small><strong>Meet by the water</strong><span>Pick a time together</span></div>
+                  <b aria-hidden="true">+</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__edge"><span>01 - 06</span><span>Make a plan</span></div>
+        </section>
+
+        <section class="project project--mealsort" id="mealsort" aria-labelledby="mealsort-title" data-project="mealsort">
+          <div class="project__inner">
+            <div class="project__copy">
+              <h2 id="mealsort-title">MealSort<span class="title-mark">.</span></h2>
+              <p class="project__category">Meal planning app</p>
+              <p class="project__summary">A little structure for eating well.</p>
+              <p class="project__description">Plan meals and meal prep, keep an eye on macros, and work toward personal weight and calorie goals.</p>
+              <p class="project__credit"><span>Made by</span> Aaditya</p>
+              <a class="text-link" href="#careergrid">Explore the next project <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m-5-5 5 5 5-5"/></svg></a>
+            </div>
+            <div class="project__visual">
+              <div class="study-label"><span></span> Illustrative interface study</div>
+              <div class="app-window app-window--mealsort" role="img" aria-label="Illustrative MealSort meal planning interface">
+                <div class="app-window__top app-window__top--light">
+                  <span class="app-wordmark">meal<span>sort</span></span>
+                  <span class="window-menu">TODAY <b aria-hidden="true"></b></span>
+                </div>
+                <div class="meal-heading"><div><small>YOUR PLAN</small><h3>One day at a time.</h3></div><div class="meal-date">MON<br><b>12</b></div></div>
+                <div class="macro-board">
+                  <div class="macro-board__head"><strong>Today's balance</strong><span>Example view</span></div>
+                  <div class="macro-line"><span>Protein</span><div><i style="--fill: 67%"></i></div></div>
+                  <div class="macro-line"><span>Carbohydrates</span><div><i style="--fill: 48%"></i></div></div>
+                  <div class="macro-line"><span>Fat</span><div><i style="--fill: 36%"></i></div></div>
+                </div>
+                <div class="meal-item"><span class="meal-time">LUNCH</span><strong>Roast veg &amp; grain bowl</strong><span>Prep ahead | 25 min</span><b>Open plan</b></div>
+                <div class="meal-item"><span class="meal-time">DINNER</span><strong>Choose what works</strong><span>One plan, flexible portions</span><b>+</b></div>
+              </div>
+            </div>
+          </div>
+          <div class="project__edge"><span>02 - 06</span><span>Plan with intention</span></div>
+        </section>
+
+        <section class="project project--careergrid" id="careergrid" aria-labelledby="careergrid-title" data-project="careergrid">
+          <div class="project__inner">
+            <div class="project__copy">
+              <h2 id="careergrid-title">CareerGrid<span class="title-mark">.</span></h2>
+              <p class="project__category">Career planning app</p>
+              <p class="project__summary">Keep the next opportunity in view.</p>
+              <p class="project__description">A job and internship planner that helps track an opportunity from application to the end of an internship, with interview prep along the way.</p>
+              <p class="project__credit"><span>Made by</span> Aaditya</p>
+              <a class="text-link" href="#folio">Explore the next project <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m-5-5 5 5 5-5"/></svg></a>
+            </div>
+            <div class="project__visual">
+              <div class="study-label"><span></span> Illustrative interface study</div>
+              <div class="app-window app-window--career" role="img" aria-label="Illustrative CareerGrid internship tracking interface">
+                <div class="app-window__top app-window__top--light">
+                  <span class="app-wordmark">careergrid</span>
+                  <span class="window-menu">MY TRACKER <b aria-hidden="true"></b></span>
+                </div>
+                <div class="career-heading"><div><small>OPPORTUNITIES</small><h3>Keep moving.</h3></div><span class="career-add">+ Add role</span></div>
+                <div class="career-columns">
+                  <div class="career-column"><span class="career-column__title">APPLIED <i>2</i></span><div class="career-item"><small>PRODUCT</small><strong>Graduate role</strong><span>Prepare next step</span></div><div class="career-item"><small>DESIGN</small><strong>Summer internship</strong><span>Application sent</span></div></div>
+                  <div class="career-column"><span class="career-column__title">INTERVIEW <i>1</i></span><div class="career-item career-item--focus"><small>ENGINEERING</small><strong>Interview prep</strong><span>Notes &amp; practice</span></div></div>
+                  <div class="career-column"><span class="career-column__title">IN PROGRESS <i>1</i></span><div class="career-item"><small>INTERNSHIP</small><strong>Your timeline</strong><span>Tasks &amp; milestones</span></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__edge"><span>03 - 06</span><span>Track every step</span></div>
+        </section>
+
+        <section class="project project--folio" id="folio" aria-labelledby="folio-title" data-project="folio">
+          <div class="project__inner">
+            <div class="project__copy">
+              <h2 id="folio-title">Folio<span class="title-mark">.</span></h2>
+              <p class="project__category">Spending insights app</p>
+              <p class="project__summary">Make the small stuff easier to see.</p>
+              <p class="project__description">Scan and record receipts, track spending, and get a clearer view of where your money goes.</p>
+              <p class="project__credit"><span>Made by</span> Aaditya <i aria-hidden="true"></i> Divy</p>
+              <a class="text-link" href="#infodash">Explore the next project <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m-5-5 5 5 5-5"/></svg></a>
+            </div>
+            <div class="project__visual">
+              <div class="study-label"><span></span> Illustrative interface study</div>
+              <div class="app-window app-window--folio" role="img" aria-label="Illustrative Folio receipt tracking interface">
+                <div class="app-window__top app-window__top--light">
+                  <span class="app-wordmark">folio<span class="folio-mark">/</span></span>
+                  <span class="folio-scan">SCAN A RECEIPT <b>+</b></span>
+                </div>
+                <div class="folio-heading"><small>YOUR SPENDING</small><h3>A clearer picture.</h3><span>Example activity</span></div>
+                <div class="folio-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="receipt-list">
+                  <div><span class="receipt-stamp">G</span><span><strong>Groceries</strong><small>Receipt added</small></span><b>View</b></div>
+                  <div><span class="receipt-stamp receipt-stamp--orange">T</span><span><strong>Transport</strong><small>Receipt added</small></span><b>View</b></div>
+                  <div><span class="receipt-stamp receipt-stamp--purple">D</span><span><strong>Dining</strong><small>Receipt added</small></span><b>View</b></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__edge"><span>04 - 06</span><span>Spend with clarity</span></div>
+        </section>
+
+        <section class="project project--infodash" id="infodash" aria-labelledby="infodash-title" data-project="infodash">
+          <div class="project__inner">
+            <div class="project__copy">
+              <h2 id="infodash-title">InfoDash<span class="title-mark">.</span></h2>
+              <p class="project__category">Insurance information dashboard</p>
+              <p class="project__summary">Make the details make sense.</p>
+              <p class="project__description">A customer-facing NRMA insurance dashboard that breaks down the price, explains what it covers, and makes optional add-ons easier to understand.</p>
+              <p class="project__credit"><span>Made by</span> Aaditya <i aria-hidden="true"></i> Divy</p>
+              <p class="project__award">3rd place <span>UTS x IAG hackathon</span></p>
+              <a class="text-link" href="#grolocal">Explore the next project <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m-5-5 5 5 5-5"/></svg></a>
+            </div>
+            <div class="project__visual">
+              <div class="study-label study-label--light"><span></span> Illustrative information layout</div>
+              <div class="app-window app-window--info" role="img" aria-label="Illustrative InfoDash insurance information dashboard">
+                <div class="info-header"><span>NRMA <b>InfoDash</b></span><span>POLICY OVERVIEW</span></div>
+                <div class="info-title"><small>YOUR COVER, EXPLAINED</small><h3>See what goes<br>into your cover.</h3><p>An example breakdown of the information customers can review.</p></div>
+                <div class="info-breakdown">
+                  <div><span class="info-symbol">01</span><span><strong>Insurance price</strong><small>What the price means</small></span><b>+</b></div>
+                  <div><span class="info-symbol">02</span><span><strong>What it includes</strong><small>Understand the cover</small></span><b>+</b></div>
+                  <div><span class="info-symbol">03</span><span><strong>Optional add-ons</strong><small>Explore extra choices</small></span><b>+</b></div>
+                </div>
+                <div class="info-foot"><span>Built for clarity</span><span>Example layout - no pricing shown</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="project__edge"><span>05 - 06</span><span>Explain the whole picture</span></div>
+        </section>
+
+        <section class="project project--grolocal" id="grolocal" aria-labelledby="grolocal-title" data-project="grolocal">
+          <div class="project__inner">
+            <div class="project__copy">
+              <h2 id="grolocal-title">GroLocal<span class="title-mark">.</span></h2>
+              <p class="project__category">Community marketplace</p>
+              <p class="project__summary">Good things grow closer together.</p>
+              <p class="project__description">A local marketplace for homegrown produce and goods, with advice and tools that bring neighbors and cultures together.</p>
+              <p class="project__credit"><span>Made by</span> Aaditya</p>
+              <p class="project__award">3rd place <span>SYNCS Hack 2026</span></p>
+              <a class="text-link" href="#contact">Discuss a project <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v13m-5-5 5 5 5-5"/></svg></a>
+            </div>
+            <div class="project__visual">
+              <div class="study-label"><span></span> Illustrative marketplace interface</div>
+              <div class="app-window app-window--grolocal" role="img" aria-label="Illustrative GroLocal local produce marketplace">
+                <div class="app-window__top app-window__top--light">
+                  <span class="app-wordmark">gro<span>local</span></span>
+                  <span class="market-location">NEARBY <b aria-hidden="true"></b></span>
+                </div>
+                <div class="market-heading"><div><small>GROWN AROUND YOU</small><h3>From nearby,<br>with care.</h3></div><span class="market-sun" aria-hidden="true"></span></div>
+                <div class="market-tabs"><span>Produce</span><span>Tools &amp; tips</span><span>Stories</span></div>
+                <div class="market-items">
+                  <div class="market-item market-item--green"><span class="produce-art produce-art--leaf" aria-hidden="true"></span><strong>Garden greens</strong><small>Locally grown</small></div>
+                  <div class="market-item market-item--pink"><span class="produce-art produce-art--fruit" aria-hidden="true"></span><strong>Seasonal fruit</strong><small>From the neighborhood</small></div>
+                  <div class="market-item market-item--yellow"><span class="produce-art produce-art--roots" aria-hidden="true"></span><strong>Fresh from soil</strong><small>Shared by growers</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__edge"><span>06 - 06</span><span>Keep growing</span></div>
+        </section>
+      </div>
+
+      <section class="archive-note" aria-labelledby="archive-title">
+        <div class="archive-note__mark" aria-hidden="true">+</div>
+        <div><h2 id="archive-title">More work is on its way.</h2><p>Two collaborator-built apps will join the archive when their details are ready.</p></div>
+        <span class="archive-note__stamp">ARCHIVE<br>IN PROGRESS</span>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__copy">
+          <h2 id="contact-title">Let's make<br>something useful.</h2>
+          <p>A&D Development's consultation contact will appear here once the details are ready.</p>
+        </div>
+        <div class="contact__placeholder">
+          <span class="contact__dot" aria-hidden="true"></span>
+          <div><strong>Contact details to be added</strong><span>Email or project inquiry link pending</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark wordmark--footer" href="#main">
+        <span class="wordmark__symbol" aria-hidden="true">A<span>&amp;</span>D</span>
+        <span class="wordmark__name">Development</span>
+      </a>
+      <p>Selected app work by Aaditya and collaborators.</p>
+      <a href="#main" class="back-top">Back to top <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 17V4m-5 5 5-5 5 5"/></svg></a>
+    </footer>
+  </body>
+</html>
