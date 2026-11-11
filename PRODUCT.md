@@ -24,7 +24,7 @@ The portfolio's distinct positioning is undecided. Do not invent a differentiato
 
 ## Capabilities and Constraints
 
-The portfolio can present project summaries, team credits, and the reported hackathon placements. Aaditya and Divy are credited on Haps, Folio, and the IAG hackathon project; Aaditya is credited on MealSort, CareerGrid, and GroLocal. Two further apps made by a collaborator are expected to be added later.
+The portfolio can present project summaries, team credits, and the reported hackathon placements. Aaditya and Divy are credited on Haps, Folio, and the IAG hackathon project; Aaditya is credited on MealSort, CareerGrid, and GroLocal. Divy is credited on Thread Trip and SharePlate.
 
 ## Brand Commitments
 
@@ -39,7 +39,10 @@ Use the company name A&D Development. No other brand assets or identity constrai
 - InfoDash: a dashboard built for the UTS x IAG hackathon to explain NRMA insurance-claim pricing, its components, and add-ons. The team placed third.
 - GroLocal: a local marketplace for homegrown produce and goods, with advice and tools intended to foster community and cultural exchange. Built for SYNCS Hack 2026; the user reports a third-place finish.
 
-No project metrics, client endorsements, or client relationships were provided. Two additional collaborator-made apps are planned but their details are not yet available. Do not fabricate these facts.
+- Thread Trip: a trip-planning app using Tinder-style swiping to discover trip itinerary ideas. Added by Divy.
+- SharePlate: small businesses list surplus food for charities and community organisations to claim and collect by the end of the day for local communities. Added by Divy.
+
+No project metrics, client endorsements, or client relationships were provided. Do not fabricate these facts.
 
 ## Product Principles
 

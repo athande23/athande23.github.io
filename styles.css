@@ -1633,3 +1633,17 @@ a {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* Additional portfolio studies use the existing palette and app-window system. */
+.project--threadtrip h2 { max-width: 9ch; }
+.project--shareplate h2 { font-size: clamp(3rem, 6.5vw, 5.5rem); }
+.trip-card { padding: 0.85rem; background: #eae5f5; }
+.trip-card__art { display: grid; min-height: 9rem; padding: 1rem; place-items: center; background: var(--lavender); background-image: repeating-linear-gradient(145deg, transparent 0 28px, rgb(33 26 55 / 12%) 29px 30px); }
+.trip-card__art span { font-family: var(--display); font-size: 2rem; font-weight: 700; line-height: 1; text-align: center; }
+.trip-card > small { display: block; margin-top: 0.9rem; font-size: 0.6rem; letter-spacing: 0.1em; }
+.trip-card > strong { display: block; margin-top: 0.3rem; font-family: var(--display); font-size: 1.3rem; }
+.trip-card p { margin: 0.4rem 0 0; font-size: 0.8rem; }
+.trip-swipe { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1rem; }
+.trip-swipe span { padding: 0.7rem 1rem; border: 1px solid currentColor; font-size: 0.75rem; font-weight: 700; }
+.trip-swipe span:last-child { color: var(--forest); background: var(--lime); }
+.project-nav__links { justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; gap: clamp(0.7rem, 1.6vw, 1.8rem); }
